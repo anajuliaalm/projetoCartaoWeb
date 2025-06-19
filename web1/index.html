@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cartão de Visita - Ana Júlia Almeida</title>
+
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #fce4ec; 
+      font-family:Georgia, 'Times New Roman', Times, serif
+    }
+
+    .cartao {
+      width: 500px;
+      height: 320px;
+      border-radius: 15px;
+      border: 2px solid #ec407a; 
+      background: linear-gradient(120deg, #f48fb1, #f06292);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: start;
+      padding: 20px;
+      box-sizing: border-box;
+      position: relative;
+    }
+
+    .img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 3px solid white;
+      margin-bottom: 15px;
+      object-fit: cover;
+    }
+
+    h2 {
+      font-size: 22px;
+      color: white;
+      margin: 5px 0;
+    }
+
+    .profissao {
+      font-size: 16px;
+      color: rgb(91, 34, 90);
+      margin-bottom: 20px;
+    }
+
+    .contato {
+      color: white;
+      font-size: 14px;
+      margin: 4px 0;
+    }
+
+    .contato a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .contato a:hover {
+      text-decoration: underline;
+    }
+
+    .rodape {
+      position: absolute;
+      bottom: 10px;
+      font-size: 10px;
+      color: papayawhip;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="cartao">
+    <img src="img/anajulia.jpg" alt="Foto de Ana Julia" class="img">
+
+    <h2>Ana Júlia Almeida</h2>
+    <p class="profissao"> Desenvolvedora Web</p>
+
+    <div class="contato">📧 <a href="mailto:anajulia@aluno.ifce.edu.br">anajuliaalmeida072007@gmail.com</a></div>
+    <div class="contato">📱 (85) 985725930</div>
+    <div class="contato">🐙 <a href="https://github.com/anajuliaalm" target="_blank">github.com/anajuliaalm</a></div>
+    <div class="contato">📸 <a href="https://www.instagram.com/_anajuliaalm?igsh=d3c3dWdoaXpodWJ4" target="_blank">@_anajuliaalm</a></div>
+
+    <footer class="rodape">&copy; Ana Júlia Almeida, 2025</footer>
+  </div>
+</body>
+</html>
